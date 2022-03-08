@@ -1,0 +1,331 @@
+body {
+   background-color: #f2f2f2 !important;
+}
+
+::-webkit-input-placeholder {
+    color: #999;
+}
+
+:-ms-input-placeholder {
+    color: #999;
+}
+
+::-ms-input-placeholder {
+    color: #999;
+}
+
+::placeholder {
+    color: #999;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: #fff;
+  font-weight: 500;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  color: #fff;
+  font-weight: 500;
+}
+
+::placeholder {
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Cor de fundo do autocomplete */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px black inset;
+}
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+    -webkit-text-fill-color: #fff !important;
+}
+
+.main-content {
+   min-height: 100%;
+   background-color: #f2f2f2;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.column-align-center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-lines-login {
+    text-align: center;
+}
+
+.lines-login label {
+    display: block;
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+}
+
+.lines-login input {
+    display: block;
+    width: 100%;
+    border: none;
+    color: #fff !important;
+    background-color: #000 !important;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.btn-line-login {
+    display: block;
+    background-color: #000 !important;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.tarja-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tarja-footer-interna {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #afafaf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs-login img {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.imgs-login h4 {
+    padding: 25px;
+}
+
+.img-login {
+    margin-top: 15px;
+}
+
+.top-section-login {
+    margin-top: 15px;
+}
+
+footer {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logo {
+    position: relative;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.logo-principal img {
+    max-width: 100%;
+}
+
+.btn-cadastro {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.esqueci {
+    color: darkgray;
+    font-size: 17px;
+}
+
+.btns-social-media {
+    margin-top: 30px;
+}
+
+.btns-social-media a {
+    margin: 0 15px;
+}
+
+.middle-row {
+    margin-top: 20%;
+}
+
+.top-row {
+    margin-top: 20px;
+}
+
+.conjunto-register {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.logo-menu {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-menu img {
+
+}
+
+.titulo-interna {
+    font-weight: bold;
+    text-align: left;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.bloco-foto-perfil {
+    margin-bottom: 30px;
+}
+
+.foto-perfil {
+    background-color: #afafaf;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.mb-20 {
+    margin-bottom: 20%;
+}
+
+.alterar-foto label {
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.box-home h5 {
+    text-align: left;
+    padding: 5px 10px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.box-home p {
+    margin-bottom: 0;
+    padding: 10px 10px;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.box-home-1 {
+    background-color: #cecece;
+}
+
+.box-home-2 {
+    background-color: #f2f2f2;
+}
+
+.filtro-progresso {
+    font-size: 30px;
+}
+
+/*Celular*/
+@media only screen and (max-width: 600px) {
+    .lines-login label {
+        font-size: 15px;
+    }
+
+    .middle-row-register {
+        margin-top: 8%;
+    }
+
+    .logo-menu img {
+        min-width: 130%;
+    }
+
+    .icon-dashboard {
+        min-width: 70% !important;
+    }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .middle-row {
+        margin-top: 0;
+        margin-bottom: 10%;
+    }
+
+    .lines-login label {
+        font-size: 15px;
+    }
+
+    .btn-line-login {
+        padding: 3px 15px;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .lines-login input {
+        font-size: 13px;
+        padding: 2px 15px;
+    }
+
+    .esqueci {
+        font-size: 13px;
+    }
+
+    .btn-social-media {
+        max-width: 10%;
+    }
+
+    .btns-social-media {
+        margin-top: 20px;
+    }
+
+    .top-row {
+        margin-top: 0;
+    }
+
+    .btn-cadastro {
+        font-size: 20px;
+    }
+
+}
+
+/*Desktop*/
+@media only screen and (min-width: 900px) {
+    .btn-cadastro {
+        font-size: 50px;
+    }
+
+    .middle-row-register {
+        margin-top: 8% !important;
+        margin-bottom: 10%;
+    }
+
+}
